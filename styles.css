@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  background-color: cyan;
+  overflow: hidden;
+}
+
+img {
+  height: 8rem;
+}
+
+.logo-container {
+  display: flex;
+  color: white;
+  background-color: black;
+  opacity: 0.2;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 80vw;
+  background-color: gray;
+}
+
+.left {
+  position: relative;
+  flex: 1;
+}
+
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left p {
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-area-right {
+  display: flex;
+  flex-direction: column;
+}
+
