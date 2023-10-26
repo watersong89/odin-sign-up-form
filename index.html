@@ -7,7 +7,7 @@
   <title>Sign-Up Form</title>
   <link rel="icon" href="https://fav.farm/📋" />
   <link rel="stylesheet" href="https://use.typekit.net/jhq3paq.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="meyer-css-reset.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,29 +16,29 @@
   <div class="container">
     <section class="left">
       <div class="logo-container">
-        <i class='bx bxs-plane-alt'></i>
+        <i class="bx bxs-plane-alt"></i>
         <div class="logo-text">Journeys...</div>
       </div>
     </section>
     <section class="right">
       <form action="#" method="post">
-        <h1>Where will signing up take you?!</h1>
+        <h1>Where will signing up take you?</h1>
         <div class="input-area">
           <fieldset class="input-area-left">
-            <label for="first-name">First Name</label>
-            <input type="text" name="first-name" id="first-name">
+            <label for="first-name">Name</label>
+            <input type="text" name="first-name" id="first-name" minlength="1" required>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
             <label for="password">Password</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" minlength="8" required>
           </fieldset>
           <fieldset class="input-area-right">
-            <label for="last-name">Last Name</label>
-            <input type="text" name="last-name" id="last-name">
+            <label for="last-name">Surname</label>
+            <input type="text" name="last-name" id="last-name" minlength="1" required>
             <label for="phone-number">Phone Number</label>
-            <input type="tel" name="phone-number" id="phone-number">
+            <input type="tel" name="phone-number" id="phone-number" minlength="7" pattern="/^\+?[1-9][0-9]{7,14}$/" required>
             <label for="password-confirm">Confirm Password</label>
-            <input type="password" name="password-confirm" id="password-confirm">
+            <input type="password" name="password-confirm" id="password-confirm" required>
           </fieldset>
         </div>
         <fieldset class="submit-area">
