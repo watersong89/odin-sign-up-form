@@ -4,6 +4,9 @@
 
 body {
   display: flex;
+  background: url(img/wave-2021-10-04-23-36-48-utc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -86,6 +89,8 @@ a {
   display: flex;
   height: 100vh;
   width: 100vw;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .left {
