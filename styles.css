@@ -20,11 +20,25 @@ form {
 .logo-container {
   display: flex;
   color: white;
-  background-color: rgba(246, 241, 237, 0.5);
+  background: linear-gradient(0deg, #F6F1ED00, 25%,#F6F1ED, 35%, #F6F1ED,#F6F1ED00);
   align-items: center;
   justify-content: center;
-  margin-top: 50vh;
+  margin-top: 55vh;
   padding: 1rem 0;
+}
+
+i, .logo-text {
+  font-family: "botanica-sans", sans-serif;
+  color: #80a162;
+  padding: 4rem 0.8rem;
+}
+
+i {
+  font-size: 6rem;
+}
+
+.logo-text {
+  font-size: 4rem;
 }
 
 .container {
