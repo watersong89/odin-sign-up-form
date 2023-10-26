@@ -117,6 +117,7 @@ a {
 .input-area {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .input-area-left {
